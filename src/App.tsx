@@ -4,7 +4,7 @@ import TeamFormPage from './pages/TeamFormPage';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/gokwik/pr-nudge-bot">
+    <BrowserRouter>
       <div className="min-h-screen bg-gray-50">
         <nav className="bg-white border-b border-gray-200 px-6 py-3 flex items-center gap-3">
           <span className="text-lg font-semibold text-gray-900">PR Nudge Bot</span>
