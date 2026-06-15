@@ -4,7 +4,8 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-resolve: {
+  base: '/gokwik/pr-nudge-bot/',
+  resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
